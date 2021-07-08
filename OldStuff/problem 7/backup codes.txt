@@ -1,0 +1,25 @@
+if(x>2 && y>2){
+        movex++;
+        x--;
+        movey++;
+        y--;
+        res=movex+movey;
+        break;
+    }
+    else if (x<2 && y<2){
+        movex++;
+    x++;
+    movey++;
+    y++;
+    res=movex+movey;
+    break;}
+
+
+    else if (x<=2 && y>=2){
+        movex++;
+        x++;
+        movey++;
+        y--;
+        res=movex+movey;
+        break;
+    }
