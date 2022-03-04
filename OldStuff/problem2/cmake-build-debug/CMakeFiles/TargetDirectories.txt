@@ -1,3 +1,0 @@
-D:/jetbrains/c++ projects/CodeForces/problem2/cmake-build-debug/CMakeFiles/problem2.dir
-D:/jetbrains/c++ projects/CodeForces/problem2/cmake-build-debug/CMakeFiles/edit_cache.dir
-D:/jetbrains/c++ projects/CodeForces/problem2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
