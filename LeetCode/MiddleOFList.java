@@ -26,5 +26,18 @@ public class MiddleOFList {
         return slow;
     }
 
+    public ListNode removeNthFromEnd(ListNode head, int n) {
+        ListNode curr = head,prev=null;
+        int count=1;
+        while(curr!=null)
+        {
+            if(count>n) prev = (prev==null) ? head : prev.next;
+            curr=curr.next;
+            count++;
+        }
+        if(prev==null) return head.next;
+        prev.next=prev.next.next;
+        return head;
+    }
 
 }
