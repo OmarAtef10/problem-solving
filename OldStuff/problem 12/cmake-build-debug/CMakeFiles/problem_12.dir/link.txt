@@ -1,3 +1,0 @@
-"D:\jetbrains\clion\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\problem_12.dir/objects.a
-D:\jetbrains\cpp\mingw64\bin\ar.exe cr CMakeFiles\problem_12.dir/objects.a @CMakeFiles\problem_12.dir\objects1.rsp
-D:\jetbrains\cpp\mingw64\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\problem_12.dir/objects.a -Wl,--no-whole-archive  -o problem_12.exe -Wl,--out-implib,libproblem_12.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\problem_12.dir\linklibs.rsp
